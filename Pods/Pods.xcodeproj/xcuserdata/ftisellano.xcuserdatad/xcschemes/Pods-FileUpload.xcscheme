@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FF14E046E21176F4AF819F7C"
+               BlueprintIdentifier = "853C7E768C7FCB87BB08512F"
                BuildableName = "Pods_FileUpload.framework"
                BlueprintName = "Pods-FileUpload"
                ReferencedContainer = "container:Pods.xcodeproj">

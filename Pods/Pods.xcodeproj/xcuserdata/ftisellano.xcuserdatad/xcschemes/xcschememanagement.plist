@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Pods-FileUpload-Alamofire.xcscheme</key>
+		<key>Pods-FileUpload-SwiftHTTP.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -17,12 +17,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>4F2ED822E3A517F49B310B8F</key>
+		<key>853C7E768C7FCB87BB08512F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>FF14E046E21176F4AF819F7C</key>
+		<key>A49DEAAF0B69AA3CC972CD68</key>
 		<dict>
 			<key>primary</key>
 			<true/>

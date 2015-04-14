@@ -7,280 +7,380 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0F5CEC06E7B16C73DA78AE13 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CE8B36D9DFD251ADDF783CC /* Cocoa.framework */; };
-		3927FFFF840B2DB51071ADAE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CE8B36D9DFD251ADDF783CC /* Cocoa.framework */; };
-		5EC670D46731759F4246D228 /* Pods-FileUpload-Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE48D843461179376AA51A12 /* Pods-FileUpload-Alamofire-dummy.m */; };
-		8D9F63AD8CB2B88D927526FB /* Pods-FileUpload-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 126C63E01916EA0A59793B2D /* Pods-FileUpload-dummy.m */; };
-		AAE216D425A4FC63DFB9430A /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20036848FE72313C1929BE75 /* Alamofire.swift */; };
-		B8EB7AC76648D606DDEC38EA /* Pods-FileUpload-Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 34FD4119EAE227A73F4A37E5 /* Pods-FileUpload-Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C5FE5FEA90D6AD42EE6E72E7 /* Pods-FileUpload-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ABF1BA041CF50E0271DD792 /* Pods-FileUpload-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08AA3A5185AC9AA5ED7A6152 /* Pods-FileUpload-SwiftHTTP-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4603A113F4DBC1C0882A6D7F /* Pods-FileUpload-SwiftHTTP-dummy.m */; };
+		0C4B3867753793E394746D2F /* HTTPUpload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A2AA3168D7B4FA0A40BF95 /* HTTPUpload.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1699EDBF05EF2D1D2D221110 /* HTTPResponseSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8312DECDAB8E3E1C1837FDC6 /* HTTPResponseSerializer.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		252BD57E62AB73C214D34068 /* HTTPTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B46DCF1F16F2DEF5D6AC52 /* HTTPTask.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		31E831992F30722E71339DC4 /* HTTPRequestSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6EFDF03F1D2AD9FAA3BC1D /* HTTPRequestSerializer.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		32A287DBA354C1BB2FBECEB0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 532C60B52E6C2282A781093A /* Cocoa.framework */; };
+		7F2B19824DB495ED9B803DA9 /* Pods-FileUpload-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 48BFA28FCAED49E4C1FFA209 /* Pods-FileUpload-dummy.m */; };
+		A048E64D93A50EB62BFDEBE7 /* Pods-FileUpload-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B80A43D14C735DE3606B706B /* Pods-FileUpload-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CCC56F16CFE98384129C0349 /* Pods-FileUpload-SwiftHTTP-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E58C30739A49DDF7E7A3F84D /* Pods-FileUpload-SwiftHTTP-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB662DAC1CE3FCF586B59327 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 532C60B52E6C2282A781093A /* Cocoa.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		91ED331077AF0481820A8A85 /* PBXContainerItemProxy */ = {
+		D86A72F6A8DCD3C54B00E75E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 86D74B1A54D15EBF22A1B71F /* Project object */;
+			containerPortal = 16065BD5D18B698F266E870A /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4F2ED822E3A517F49B310B8F;
-			remoteInfo = "Pods-FileUpload-Alamofire";
+			remoteGlobalIDString = A49DEAAF0B69AA3CC972CD68;
+			remoteInfo = "Pods-FileUpload-SwiftHTTP";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		096493B00768F0B49992DE43 /* Pods-FileUpload-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FileUpload-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0A34594333D0FC6790970209 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0B4E373ED91F13E5950B6058 /* Pods-FileUpload-Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FileUpload-Alamofire.modulemap"; sourceTree = "<group>"; };
-		126C63E01916EA0A59793B2D /* Pods-FileUpload-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FileUpload-dummy.m"; sourceTree = "<group>"; };
-		20036848FE72313C1929BE75 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
-		2270986ED16EBB73BA40D263 /* Pods-FileUpload.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FileUpload.modulemap"; sourceTree = "<group>"; };
-		34FD4119EAE227A73F4A37E5 /* Pods-FileUpload-Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FileUpload-Alamofire-umbrella.h"; sourceTree = "<group>"; };
-		6D859DC0E34C64E771F9C734 /* Pods-FileUpload-Alamofire-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FileUpload-Alamofire-Private.xcconfig"; sourceTree = "<group>"; };
-		741A531B950313CE03CBF4A4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		764E4E6AA7B882BAE2376380 /* Pods-FileUpload-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FileUpload-acknowledgements.plist"; sourceTree = "<group>"; };
-		8A80718286E90121028FD66C /* Pods-FileUpload.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FileUpload.release.xcconfig"; sourceTree = "<group>"; };
-		8ABF1BA041CF50E0271DD792 /* Pods-FileUpload-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FileUpload-umbrella.h"; sourceTree = "<group>"; };
-		9CE8B36D9DFD251ADDF783CC /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
-		9D2F429936B89F4586A12313 /* Pods-FileUpload-Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FileUpload-Alamofire.xcconfig"; sourceTree = "<group>"; };
-		AD440C200CFA44056386604A /* Pods-FileUpload-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FileUpload-resources.sh"; sourceTree = "<group>"; };
-		ADE70A5B456BC27A95B146AC /* Pods_FileUpload.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FileUpload.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AE48D843461179376AA51A12 /* Pods-FileUpload-Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FileUpload-Alamofire-dummy.m"; sourceTree = "<group>"; };
-		BEC66BC4E3109042DF0E4F7A /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C657FCF8162E670C3773D42D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D82D2E7C4C9B4203E55972D1 /* Pods-FileUpload-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FileUpload-environment.h"; sourceTree = "<group>"; };
-		DF542C0798F953E401433BBF /* Pods-FileUpload.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FileUpload.debug.xcconfig"; sourceTree = "<group>"; };
-		E34883309C108067F7F0C744 /* Pods-FileUpload-Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FileUpload-Alamofire-prefix.pch"; sourceTree = "<group>"; };
-		F073760FEDCF9B964A35F833 /* Pods-FileUpload-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FileUpload-frameworks.sh"; sourceTree = "<group>"; };
+		08EDECEF87C15EE900422792 /* SwiftHTTP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftHTTP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		11976F38934D99D9E14CDD31 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CA9EFE3C3A4E2EADFBE942D /* Pods-FileUpload-SwiftHTTP-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FileUpload-SwiftHTTP-prefix.pch"; sourceTree = "<group>"; };
+		24B46DCF1F16F2DEF5D6AC52 /* HTTPTask.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HTTPTask.swift; sourceTree = "<group>"; };
+		28858B11970E012918A82610 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		31C2C233ED4048C97A1D9916 /* Pods-FileUpload-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FileUpload-acknowledgements.plist"; sourceTree = "<group>"; };
+		3F1DAE0C75C9BA2BE7ABA6B0 /* Pods-FileUpload.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FileUpload.modulemap"; sourceTree = "<group>"; };
+		4603A113F4DBC1C0882A6D7F /* Pods-FileUpload-SwiftHTTP-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FileUpload-SwiftHTTP-dummy.m"; sourceTree = "<group>"; };
+		48BFA28FCAED49E4C1FFA209 /* Pods-FileUpload-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FileUpload-dummy.m"; sourceTree = "<group>"; };
+		4A4880B73A866B72F8BB6F87 /* Pods-FileUpload-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FileUpload-acknowledgements.markdown"; sourceTree = "<group>"; };
+		532C60B52E6C2282A781093A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		54A2AA3168D7B4FA0A40BF95 /* HTTPUpload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HTTPUpload.swift; sourceTree = "<group>"; };
+		7882CCF4D4D0CDD6755768DD /* Pods-FileUpload-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FileUpload-resources.sh"; sourceTree = "<group>"; };
+		7F6B998B1809BA4D162F15E3 /* Pods-FileUpload-SwiftHTTP-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FileUpload-SwiftHTTP-Private.xcconfig"; sourceTree = "<group>"; };
+		81F9C3CACDF421D68F2BFB89 /* Pods-FileUpload-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FileUpload-frameworks.sh"; sourceTree = "<group>"; };
+		8312DECDAB8E3E1C1837FDC6 /* HTTPResponseSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HTTPResponseSerializer.swift; sourceTree = "<group>"; };
+		891672C4C99B5369BDA50306 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B56F828FBEB5D6A8E1D6A7D /* Pods-FileUpload.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FileUpload.debug.xcconfig"; sourceTree = "<group>"; };
+		AA4BC5878AAD32BAD6A77922 /* Pods-FileUpload-SwiftHTTP.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FileUpload-SwiftHTTP.modulemap"; sourceTree = "<group>"; };
+		B0A1583CC4E34434CC9A1AE3 /* Pods-FileUpload.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FileUpload.release.xcconfig"; sourceTree = "<group>"; };
+		B80A43D14C735DE3606B706B /* Pods-FileUpload-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FileUpload-umbrella.h"; sourceTree = "<group>"; };
+		C0CBA3575B7C8411E54BB457 /* Pods_FileUpload.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FileUpload.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB6EFDF03F1D2AD9FAA3BC1D /* HTTPRequestSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HTTPRequestSerializer.swift; sourceTree = "<group>"; };
+		E58C30739A49DDF7E7A3F84D /* Pods-FileUpload-SwiftHTTP-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FileUpload-SwiftHTTP-umbrella.h"; sourceTree = "<group>"; };
+		EC908109F3FDD9AF4049D6D5 /* Pods-FileUpload-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FileUpload-environment.h"; sourceTree = "<group>"; };
+		EF78C4C0B47959D5598771A3 /* Pods-FileUpload-SwiftHTTP.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FileUpload-SwiftHTTP.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7A553653918F3EA66647E355 /* Frameworks */ = {
+		4B436A0BAFCA139ABBDC2509 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F5CEC06E7B16C73DA78AE13 /* Cocoa.framework in Frameworks */,
+				32A287DBA354C1BB2FBECEB0 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		87D8C0457FFCF4185600E355 /* Frameworks */ = {
+		A6E63E54D8848A19A9367046 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3927FFFF840B2DB51071ADAE /* Cocoa.framework in Frameworks */,
+				FB662DAC1CE3FCF586B59327 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0CF9A691EE2F20E9FE51DA07 /* Pods */ = {
+		8A1990AFB7A35C34E82F13DA /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A7080EA0F784969B8F109395 /* Alamofire */,
+				B6BFE16FBC7BF30264BC7F5B /* SwiftHTTP */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		22DE074F8F313210ABD42256 /* Support Files */ = {
+		8CF96B1ABB422F537AED1A84 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				741A531B950313CE03CBF4A4 /* Info.plist */,
-				0B4E373ED91F13E5950B6058 /* Pods-FileUpload-Alamofire.modulemap */,
-				9D2F429936B89F4586A12313 /* Pods-FileUpload-Alamofire.xcconfig */,
-				6D859DC0E34C64E771F9C734 /* Pods-FileUpload-Alamofire-Private.xcconfig */,
-				AE48D843461179376AA51A12 /* Pods-FileUpload-Alamofire-dummy.m */,
-				E34883309C108067F7F0C744 /* Pods-FileUpload-Alamofire-prefix.pch */,
-				34FD4119EAE227A73F4A37E5 /* Pods-FileUpload-Alamofire-umbrella.h */,
+				891672C4C99B5369BDA50306 /* Info.plist */,
+				AA4BC5878AAD32BAD6A77922 /* Pods-FileUpload-SwiftHTTP.modulemap */,
+				EF78C4C0B47959D5598771A3 /* Pods-FileUpload-SwiftHTTP.xcconfig */,
+				7F6B998B1809BA4D162F15E3 /* Pods-FileUpload-SwiftHTTP-Private.xcconfig */,
+				4603A113F4DBC1C0882A6D7F /* Pods-FileUpload-SwiftHTTP-dummy.m */,
+				1CA9EFE3C3A4E2EADFBE942D /* Pods-FileUpload-SwiftHTTP-prefix.pch */,
+				E58C30739A49DDF7E7A3F84D /* Pods-FileUpload-SwiftHTTP-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/Pods-FileUpload-Alamofire";
+			path = "../Target Support Files/Pods-FileUpload-SwiftHTTP";
 			sourceTree = "<group>";
 		};
-		37FE4112661297C89514CF31 /* OS X */ = {
+		97D70B4C418B8EE3EB5FC10B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9CE8B36D9DFD251ADDF783CC /* Cocoa.framework */,
-			);
-			name = "OS X";
-			sourceTree = "<group>";
-		};
-		3C814E0AEB910831D0E4809C /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				37FE4112661297C89514CF31 /* OS X */,
+				ABC6D5387EC17019534CD3CD /* OS X */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		70DA53F7A56D9A75211FFECB = {
+		A724192ED62138E5F3EE5643 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				BEC66BC4E3109042DF0E4F7A /* Podfile */,
-				3C814E0AEB910831D0E4809C /* Frameworks */,
-				0CF9A691EE2F20E9FE51DA07 /* Pods */,
-				9F1EC649EF9AC0A409B14F62 /* Products */,
-				B7F8BBB497FD5DB363BFAEDD /* Targets Support Files */,
+				C0EAACFB97E99F8711A631ED /* Pods-FileUpload */,
 			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		8C6CA23791C6CBD0234BCBD3 /* Pods-FileUpload */ = {
+		ABC6D5387EC17019534CD3CD /* OS X */ = {
 			isa = PBXGroup;
 			children = (
-				C657FCF8162E670C3773D42D /* Info.plist */,
-				2270986ED16EBB73BA40D263 /* Pods-FileUpload.modulemap */,
-				096493B00768F0B49992DE43 /* Pods-FileUpload-acknowledgements.markdown */,
-				764E4E6AA7B882BAE2376380 /* Pods-FileUpload-acknowledgements.plist */,
-				126C63E01916EA0A59793B2D /* Pods-FileUpload-dummy.m */,
-				D82D2E7C4C9B4203E55972D1 /* Pods-FileUpload-environment.h */,
-				F073760FEDCF9B964A35F833 /* Pods-FileUpload-frameworks.sh */,
-				AD440C200CFA44056386604A /* Pods-FileUpload-resources.sh */,
-				8ABF1BA041CF50E0271DD792 /* Pods-FileUpload-umbrella.h */,
-				DF542C0798F953E401433BBF /* Pods-FileUpload.debug.xcconfig */,
-				8A80718286E90121028FD66C /* Pods-FileUpload.release.xcconfig */,
+				532C60B52E6C2282A781093A /* Cocoa.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		B6BFE16FBC7BF30264BC7F5B /* SwiftHTTP */ = {
+			isa = PBXGroup;
+			children = (
+				CB6EFDF03F1D2AD9FAA3BC1D /* HTTPRequestSerializer.swift */,
+				8312DECDAB8E3E1C1837FDC6 /* HTTPResponseSerializer.swift */,
+				24B46DCF1F16F2DEF5D6AC52 /* HTTPTask.swift */,
+				54A2AA3168D7B4FA0A40BF95 /* HTTPUpload.swift */,
+				8CF96B1ABB422F537AED1A84 /* Support Files */,
+			);
+			path = SwiftHTTP;
+			sourceTree = "<group>";
+		};
+		C0EAACFB97E99F8711A631ED /* Pods-FileUpload */ = {
+			isa = PBXGroup;
+			children = (
+				11976F38934D99D9E14CDD31 /* Info.plist */,
+				3F1DAE0C75C9BA2BE7ABA6B0 /* Pods-FileUpload.modulemap */,
+				4A4880B73A866B72F8BB6F87 /* Pods-FileUpload-acknowledgements.markdown */,
+				31C2C233ED4048C97A1D9916 /* Pods-FileUpload-acknowledgements.plist */,
+				48BFA28FCAED49E4C1FFA209 /* Pods-FileUpload-dummy.m */,
+				EC908109F3FDD9AF4049D6D5 /* Pods-FileUpload-environment.h */,
+				81F9C3CACDF421D68F2BFB89 /* Pods-FileUpload-frameworks.sh */,
+				7882CCF4D4D0CDD6755768DD /* Pods-FileUpload-resources.sh */,
+				B80A43D14C735DE3606B706B /* Pods-FileUpload-umbrella.h */,
+				9B56F828FBEB5D6A8E1D6A7D /* Pods-FileUpload.debug.xcconfig */,
+				B0A1583CC4E34434CC9A1AE3 /* Pods-FileUpload.release.xcconfig */,
 			);
 			name = "Pods-FileUpload";
 			path = "Target Support Files/Pods-FileUpload";
 			sourceTree = "<group>";
 		};
-		9F1EC649EF9AC0A409B14F62 /* Products */ = {
+		F3718F23C8049D9E3A8993C8 = {
 			isa = PBXGroup;
 			children = (
-				0A34594333D0FC6790970209 /* Alamofire.framework */,
-				ADE70A5B456BC27A95B146AC /* Pods_FileUpload.framework */,
+				28858B11970E012918A82610 /* Podfile */,
+				97D70B4C418B8EE3EB5FC10B /* Frameworks */,
+				8A1990AFB7A35C34E82F13DA /* Pods */,
+				FA7FCF79123E2E543EA15702 /* Products */,
+				A724192ED62138E5F3EE5643 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		FA7FCF79123E2E543EA15702 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0CBA3575B7C8411E54BB457 /* Pods_FileUpload.framework */,
+				08EDECEF87C15EE900422792 /* SwiftHTTP.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		A7080EA0F784969B8F109395 /* Alamofire */ = {
-			isa = PBXGroup;
-			children = (
-				20036848FE72313C1929BE75 /* Alamofire.swift */,
-				22DE074F8F313210ABD42256 /* Support Files */,
-			);
-			path = Alamofire;
-			sourceTree = "<group>";
-		};
-		B7F8BBB497FD5DB363BFAEDD /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				8C6CA23791C6CBD0234BCBD3 /* Pods-FileUpload */,
-			);
-			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1B31627C0FED3DC78FE4DBD6 /* Headers */ = {
+		7033DD834816C5177908E77C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8EB7AC76648D606DDEC38EA /* Pods-FileUpload-Alamofire-umbrella.h in Headers */,
+				A048E64D93A50EB62BFDEBE7 /* Pods-FileUpload-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E4DCA7459F45401CEFF2DD6F /* Headers */ = {
+		DE3649A314F211253D080809 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5FE5FEA90D6AD42EE6E72E7 /* Pods-FileUpload-umbrella.h in Headers */,
+				CCC56F16CFE98384129C0349 /* Pods-FileUpload-SwiftHTTP-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		4F2ED822E3A517F49B310B8F /* Pods-FileUpload-Alamofire */ = {
+		853C7E768C7FCB87BB08512F /* Pods-FileUpload */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5EE4B9629B074D9DA39EE347 /* Build configuration list for PBXNativeTarget "Pods-FileUpload-Alamofire" */;
+			buildConfigurationList = 9E1A79DA558171AA0896B3B6 /* Build configuration list for PBXNativeTarget "Pods-FileUpload" */;
 			buildPhases = (
-				FF651214659478285AD7C4F2 /* Sources */,
-				7A553653918F3EA66647E355 /* Frameworks */,
-				1B31627C0FED3DC78FE4DBD6 /* Headers */,
+				46322EE84A8FDF6B072DB890 /* Sources */,
+				4B436A0BAFCA139ABBDC2509 /* Frameworks */,
+				7033DD834816C5177908E77C /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			name = "Pods-FileUpload-Alamofire";
-			productName = "Pods-FileUpload-Alamofire";
-			productReference = 0A34594333D0FC6790970209 /* Alamofire.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		FF14E046E21176F4AF819F7C /* Pods-FileUpload */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CB28077B3749C14168C6E180 /* Build configuration list for PBXNativeTarget "Pods-FileUpload" */;
-			buildPhases = (
-				A48641E75A01C701CF50D129 /* Sources */,
-				87D8C0457FFCF4185600E355 /* Frameworks */,
-				E4DCA7459F45401CEFF2DD6F /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				738E4BFF17B8854CDFD3F22C /* PBXTargetDependency */,
+				64E58B725CF27EBEB96A9DCE /* PBXTargetDependency */,
 			);
 			name = "Pods-FileUpload";
 			productName = "Pods-FileUpload";
-			productReference = ADE70A5B456BC27A95B146AC /* Pods_FileUpload.framework */;
+			productReference = C0CBA3575B7C8411E54BB457 /* Pods_FileUpload.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A49DEAAF0B69AA3CC972CD68 /* Pods-FileUpload-SwiftHTTP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF0F2EE06879E84E1CD506A3 /* Build configuration list for PBXNativeTarget "Pods-FileUpload-SwiftHTTP" */;
+			buildPhases = (
+				49DBCB5B8D586D46F1D0B23F /* Sources */,
+				A6E63E54D8848A19A9367046 /* Frameworks */,
+				DE3649A314F211253D080809 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-FileUpload-SwiftHTTP";
+			productName = "Pods-FileUpload-SwiftHTTP";
+			productReference = 08EDECEF87C15EE900422792 /* SwiftHTTP.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		86D74B1A54D15EBF22A1B71F /* Project object */ = {
+		16065BD5D18B698F266E870A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0510;
 			};
-			buildConfigurationList = C485BA2F7250DD7C25D28D59 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 10267B5B83DB0CF9073A4AFB /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 70DA53F7A56D9A75211FFECB;
-			productRefGroup = 9F1EC649EF9AC0A409B14F62 /* Products */;
+			mainGroup = F3718F23C8049D9E3A8993C8;
+			productRefGroup = FA7FCF79123E2E543EA15702 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FF14E046E21176F4AF819F7C /* Pods-FileUpload */,
-				4F2ED822E3A517F49B310B8F /* Pods-FileUpload-Alamofire */,
+				853C7E768C7FCB87BB08512F /* Pods-FileUpload */,
+				A49DEAAF0B69AA3CC972CD68 /* Pods-FileUpload-SwiftHTTP */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A48641E75A01C701CF50D129 /* Sources */ = {
+		46322EE84A8FDF6B072DB890 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D9F63AD8CB2B88D927526FB /* Pods-FileUpload-dummy.m in Sources */,
+				7F2B19824DB495ED9B803DA9 /* Pods-FileUpload-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FF651214659478285AD7C4F2 /* Sources */ = {
+		49DBCB5B8D586D46F1D0B23F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAE216D425A4FC63DFB9430A /* Alamofire.swift in Sources */,
-				5EC670D46731759F4246D228 /* Pods-FileUpload-Alamofire-dummy.m in Sources */,
+				31E831992F30722E71339DC4 /* HTTPRequestSerializer.swift in Sources */,
+				1699EDBF05EF2D1D2D221110 /* HTTPResponseSerializer.swift in Sources */,
+				252BD57E62AB73C214D34068 /* HTTPTask.swift in Sources */,
+				0C4B3867753793E394746D2F /* HTTPUpload.swift in Sources */,
+				08AA3A5185AC9AA5ED7A6152 /* Pods-FileUpload-SwiftHTTP-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		738E4BFF17B8854CDFD3F22C /* PBXTargetDependency */ = {
+		64E58B725CF27EBEB96A9DCE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-FileUpload-Alamofire";
-			target = 4F2ED822E3A517F49B310B8F /* Pods-FileUpload-Alamofire */;
-			targetProxy = 91ED331077AF0481820A8A85 /* PBXContainerItemProxy */;
+			name = "Pods-FileUpload-SwiftHTTP";
+			target = A49DEAAF0B69AA3CC972CD68 /* Pods-FileUpload-SwiftHTTP */;
+			targetProxy = D86A72F6A8DCD3C54B00E75E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0934CE3EC10955DCCEFFBE7C /* Debug */ = {
+		0C098CF9134C4CE069FED576 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B56F828FBEB5D6A8E1D6A7D /* Pods-FileUpload.debug.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-FileUpload/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/Pods-FileUpload/Pods-FileUpload.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_FileUpload;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0CF98F691048C9012BC34C35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0A1583CC4E34434CC9A1AE3 /* Pods-FileUpload.release.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-FileUpload/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/Pods-FileUpload/Pods-FileUpload.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_FileUpload;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		667DCF11526DB2EC922FCF76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F6B998B1809BA4D162F15E3 /* Pods-FileUpload-SwiftHTTP-Private.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-FileUpload-SwiftHTTP/Pods-FileUpload-SwiftHTTP-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-FileUpload-SwiftHTTP/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/Pods-FileUpload-SwiftHTTP/Pods-FileUpload-SwiftHTTP.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftHTTP;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		91B0897AE305FBD26D313261 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -319,7 +419,7 @@
 			};
 			name = Debug;
 		};
-		3E78E331FB475F0632A85FAA /* Release */ = {
+		97A5639DC1A2002BBFF16770 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -353,9 +453,9 @@
 			};
 			name = Release;
 		};
-		62751634E5CC9806B08D4840 /* Release */ = {
+		C39CA7BF532DFCDA4315F58D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6D859DC0E34C64E771F9C734 /* Pods-FileUpload-Alamofire-Private.xcconfig */;
+			baseConfigurationReference = 7F6B998B1809BA4D162F15E3 /* Pods-FileUpload-SwiftHTTP-Private.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -366,140 +466,52 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_VERSION = A;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-FileUpload-Alamofire/Pods-FileUpload-Alamofire-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-FileUpload-Alamofire/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-FileUpload-SwiftHTTP/Pods-FileUpload-SwiftHTTP-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-FileUpload-SwiftHTTP/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				MODULEMAP_FILE = "Target Support Files/Pods-FileUpload-Alamofire/Pods-FileUpload-Alamofire.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-FileUpload-SwiftHTTP/Pods-FileUpload-SwiftHTTP.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Alamofire;
+				PRODUCT_NAME = SwiftHTTP;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		6D4CCF32EA8F46C06D306854 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8A80718286E90121028FD66C /* Pods-FileUpload.release.xcconfig */;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "Target Support Files/Pods-FileUpload/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				MODULEMAP_FILE = "Target Support Files/Pods-FileUpload/Pods-FileUpload.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_FileUpload;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		717FBBBD062DAFC3A3B25783 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6D859DC0E34C64E771F9C734 /* Pods-FileUpload-Alamofire-Private.xcconfig */;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_VERSION = A;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-FileUpload-Alamofire/Pods-FileUpload-Alamofire-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-FileUpload-Alamofire/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				MODULEMAP_FILE = "Target Support Files/Pods-FileUpload-Alamofire/Pods-FileUpload-Alamofire.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Alamofire;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		D44BF221EA49DF93A515F384 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DF542C0798F953E401433BBF /* Pods-FileUpload.debug.xcconfig */;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "Target Support Files/Pods-FileUpload/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				MODULEMAP_FILE = "Target Support Files/Pods-FileUpload/Pods-FileUpload.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_FileUpload;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5EE4B9629B074D9DA39EE347 /* Build configuration list for PBXNativeTarget "Pods-FileUpload-Alamofire" */ = {
+		10267B5B83DB0CF9073A4AFB /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				717FBBBD062DAFC3A3B25783 /* Debug */,
-				62751634E5CC9806B08D4840 /* Release */,
+				91B0897AE305FBD26D313261 /* Debug */,
+				97A5639DC1A2002BBFF16770 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C485BA2F7250DD7C25D28D59 /* Build configuration list for PBXProject "Pods" */ = {
+		9E1A79DA558171AA0896B3B6 /* Build configuration list for PBXNativeTarget "Pods-FileUpload" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0934CE3EC10955DCCEFFBE7C /* Debug */,
-				3E78E331FB475F0632A85FAA /* Release */,
+				0C098CF9134C4CE069FED576 /* Debug */,
+				0CF98F691048C9012BC34C35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CB28077B3749C14168C6E180 /* Build configuration list for PBXNativeTarget "Pods-FileUpload" */ = {
+		CF0F2EE06879E84E1CD506A3 /* Build configuration list for PBXNativeTarget "Pods-FileUpload-SwiftHTTP" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D44BF221EA49DF93A515F384 /* Debug */,
-				6D4CCF32EA8F46C06D306854 /* Release */,
+				667DCF11526DB2EC922FCF76 /* Debug */,
+				C39CA7BF532DFCDA4315F58D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 86D74B1A54D15EBF22A1B71F /* Project object */;
+	rootObject = 16065BD5D18B698F266E870A /* Project object */;
 }

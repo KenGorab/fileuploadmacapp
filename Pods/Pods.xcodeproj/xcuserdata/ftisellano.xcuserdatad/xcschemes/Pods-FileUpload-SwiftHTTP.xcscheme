@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4F2ED822E3A517F49B310B8F"
-               BuildableName = "Alamofire.framework"
-               BlueprintName = "Pods-FileUpload-Alamofire"
+               BlueprintIdentifier = "A49DEAAF0B69AA3CC972CD68"
+               BuildableName = "SwiftHTTP.framework"
+               BlueprintName = "Pods-FileUpload-SwiftHTTP"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

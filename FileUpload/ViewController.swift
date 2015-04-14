@@ -7,7 +7,6 @@
 //
 
 import Cocoa
-import Alamofire
 
 class ViewController: NSViewController {
 
@@ -24,11 +23,7 @@ class ViewController: NSViewController {
     }
         
     @IBAction func getUploads(sender: AnyObject) {
-        Alamofire.request(.GET, "http://localhost:3000/file_uploads.json")
-            .responseJSON { (request, response, data, error) in
-                println("Request: \(request)")
-                println("Response: \(data)")
-        }
+
     }
 
 

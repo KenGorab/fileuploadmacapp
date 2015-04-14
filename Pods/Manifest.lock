@@ -1,10 +1,10 @@
 PODS:
-  - Alamofire (1.2.0)
+  - SwiftHTTP (0.9.3)
 
 DEPENDENCIES:
-  - Alamofire (~> 1.2)
+  - SwiftHTTP (~> 0.9)
 
 SPEC CHECKSUMS:
-  Alamofire: d765c5c1713aa64106b0228aaa600a1e6851f68d
+  SwiftHTTP: 8330d887c0eae4f732df0f2899b61e497e7ea1d0
 
 COCOAPODS: 0.36.3

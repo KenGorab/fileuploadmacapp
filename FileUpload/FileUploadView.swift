@@ -8,6 +8,7 @@
 
 import Cocoa
 import Foundation
+import SwiftHTTP
 
 class FileUploadView : NSView {
      override init(frame: NSRect) {
@@ -38,13 +39,23 @@ class FileUploadView : NSView {
         println("draggingPerformed: \(sender)")
 
         let pboard = sender.draggingPasteboard()
-        let url = NSURL(fromPasteboard: pboard)
+        let uploadLocation = "http://localhost:3000/file_uploads.json"
+        let fileUrl = NSURL(fromPasteboard: pboard)
         
-        println(url)
+        println(fileUrl)
         
-        // TODO: check if file is of correct type
-//        appDelegate.setLocalSourceUrl(NSURL.URLFromPasteboard(pboard))
-        
+        var request = HTTPTask()
+        request.POST(
+            uploadLocation,
+            parameters:  ["file_upload": ["raw_file": HTTPUpload(fileUrl: fileUrl!)]],
+            success: {(response: HTTPResponse) in
+                if let data = response.responseObject as? NSData {
+                    let str = NSString(data: data, encoding: NSUTF8StringEncoding)
+                    println("response: \(str)") //prints the HTML of the page
+                }
+            },failure: {(error: NSError, response: HTTPResponse?) in
+                //error out on stuff
+        })
         return true
     }
 }
