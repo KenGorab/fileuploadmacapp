@@ -49,12 +49,23 @@ class FileUploadView : NSView {
             uploadLocation,
             parameters:  ["file_upload": ["raw_file": HTTPUpload(fileUrl: fileUrl!)]],
             success: {(response: HTTPResponse) in
+                
+                let un = UserNotification()
+                un.showNotification(
+                    "File Uploaded",
+                    notificationInfoText: "So awesome!" // todo: put some more descriptive text here and copy URL to clipboard
+                )
+                
                 if let data = response.responseObject as? NSData {
                     let str = NSString(data: data, encoding: NSUTF8StringEncoding)
                     println("response: \(str)") //prints the HTML of the page
                 }
             },failure: {(error: NSError, response: HTTPResponse?) in
-                //error out on stuff
+                let un = UserNotification()
+                un.showNotification(
+                    "Error",
+                    notificationInfoText: "Could not upload file." // todo: log this error
+                )
         })
         return true
     }
