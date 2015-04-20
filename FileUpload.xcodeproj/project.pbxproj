@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		160C93BB1AE32EB500FD3960 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160C93BA1AE32EB500FD3960 /* MenuView.swift */; };
+		160C93BD1AE3366F00FD3960 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160C93BC1AE3366F00FD3960 /* ViewController.swift */; };
+		160C93C51AE3417500FD3960 /* FTCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160C93C41AE3417500FD3960 /* FTCellView.swift */; };
+		160C93C71AE3419200FD3960 /* FTCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 160C93C61AE3419200FD3960 /* FTCellView.xib */; };
 		163BF2D11ADDA05E00E601BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163BF2D01ADDA05E00E601BE /* AppDelegate.swift */; };
-		163BF2D31ADDA05E00E601BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163BF2D21ADDA05E00E601BE /* ViewController.swift */; };
 		163BF2D51ADDA05E00E601BE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 163BF2D41ADDA05E00E601BE /* Images.xcassets */; };
 		163BF2D81ADDA05E00E601BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 163BF2D61ADDA05E00E601BE /* Main.storyboard */; };
 		163BF2E41ADDA05E00E601BE /* FileUploadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163BF2E31ADDA05E00E601BE /* FileUploadTests.swift */; };
+		169CBE621AE3812C00D237C7 /* FileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169CBE611AE3812C00D237C7 /* FileModel.swift */; };
 		16EA35C01ADDDDC40085392C /* UserNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16EA35BF1ADDDDC40085392C /* UserNotification.swift */; };
 		16FAE4981ADDA2490040A938 /* Pods_FileUpload.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16FAE4971ADDA2490040A938 /* Pods_FileUpload.framework */; };
-		16FAE49A1ADDAF760040A938 /* FileUploadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FAE4991ADDAF760040A938 /* FileUploadView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,18 +32,21 @@
 
 /* Begin PBXFileReference section */
 		0DF849BEB1BB6E85FB751222 /* Pods_FileUpload.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FileUpload.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		160C93BA1AE32EB500FD3960 /* MenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		160C93BC1AE3366F00FD3960 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		160C93C41AE3417500FD3960 /* FTCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTCellView.swift; sourceTree = "<group>"; };
+		160C93C61AE3419200FD3960 /* FTCellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FTCellView.xib; sourceTree = "<group>"; };
 		163BF2CB1ADDA05E00E601BE /* FileUpload.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FileUpload.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		163BF2CF1ADDA05E00E601BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		163BF2D01ADDA05E00E601BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		163BF2D21ADDA05E00E601BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		163BF2D41ADDA05E00E601BE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		163BF2D71ADDA05E00E601BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		163BF2DD1ADDA05E00E601BE /* FileUploadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FileUploadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		163BF2E21ADDA05E00E601BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		163BF2E31ADDA05E00E601BE /* FileUploadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileUploadTests.swift; sourceTree = "<group>"; };
+		169CBE611AE3812C00D237C7 /* FileModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileModel.swift; sourceTree = "<group>"; };
 		16EA35BF1ADDDDC40085392C /* UserNotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserNotification.swift; sourceTree = "<group>"; };
 		16FAE4971ADDA2490040A938 /* Pods_FileUpload.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_FileUpload.framework; path = "Pods/../build/Debug-iphoneos/Pods_FileUpload.framework"; sourceTree = "<group>"; };
-		16FAE4991ADDAF760040A938 /* FileUploadView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileUploadView.swift; sourceTree = "<group>"; };
 		2B108A8E9EB343C969B9C20A /* Pods-FileUpload.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FileUpload.release.xcconfig"; path = "Pods/Target Support Files/Pods-FileUpload/Pods-FileUpload.release.xcconfig"; sourceTree = "<group>"; };
 		3C380257B95E8EA486B3517E /* Pods-FileUpload.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FileUpload.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FileUpload/Pods-FileUpload.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -97,12 +103,15 @@
 			isa = PBXGroup;
 			children = (
 				163BF2D01ADDA05E00E601BE /* AppDelegate.swift */,
-				163BF2D21ADDA05E00E601BE /* ViewController.swift */,
 				163BF2D41ADDA05E00E601BE /* Images.xcassets */,
+				160C93BA1AE32EB500FD3960 /* MenuView.swift */,
+				160C93BC1AE3366F00FD3960 /* ViewController.swift */,
+				169CBE611AE3812C00D237C7 /* FileModel.swift */,
 				163BF2D61ADDA05E00E601BE /* Main.storyboard */,
 				163BF2CE1ADDA05E00E601BE /* Supporting Files */,
-				16FAE4991ADDAF760040A938 /* FileUploadView.swift */,
 				16EA35BF1ADDDDC40085392C /* UserNotification.swift */,
+				160C93C41AE3417500FD3960 /* FTCellView.swift */,
+				160C93C61AE3419200FD3960 /* FTCellView.xib */,
 			);
 			path = FileUpload;
 			sourceTree = "<group>";
@@ -224,6 +233,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				160C93C71AE3419200FD3960 /* FTCellView.xib in Resources */,
 				163BF2D51ADDA05E00E601BE /* Images.xcassets in Resources */,
 				163BF2D81ADDA05E00E601BE /* Main.storyboard in Resources */,
 			);
@@ -291,9 +301,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16FAE49A1ADDAF760040A938 /* FileUploadView.swift in Sources */,
-				163BF2D31ADDA05E00E601BE /* ViewController.swift in Sources */,
+				160C93BB1AE32EB500FD3960 /* MenuView.swift in Sources */,
+				169CBE621AE3812C00D237C7 /* FileModel.swift in Sources */,
 				163BF2D11ADDA05E00E601BE /* AppDelegate.swift in Sources */,
+				160C93BD1AE3366F00FD3960 /* ViewController.swift in Sources */,
+				160C93C51AE3417500FD3960 /* FTCellView.swift in Sources */,
 				16EA35C01ADDDDC40085392C /* UserNotification.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,10 +426,6 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/build/Debug-iphoneos",
-				);
 				INFOPLIST_FILE = FileUpload/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -430,10 +438,6 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/build/Debug-iphoneos",
-				);
 				INFOPLIST_FILE = FileUpload/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";

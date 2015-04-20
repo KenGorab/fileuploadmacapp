@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4B1C884E2CAC9CAAD4F39C3F"
-               BuildableName = "Pods_FileUpload.framework"
-               BlueprintName = "Pods-FileUpload"
+               BlueprintIdentifier = "AB6CEF4B11F545B56DE29786"
+               BuildableName = "JSONJoy.framework"
+               BlueprintName = "Pods-FileUpload-JSONJoy-Swift"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

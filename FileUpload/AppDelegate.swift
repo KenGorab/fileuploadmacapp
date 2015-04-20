@@ -11,9 +11,15 @@ import Cocoa
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate, NSUserNotificationCenterDelegate {
 
-
-
+    private let menuView = MenuView()
+    
+    // MARK: App
+    
     func applicationDidFinishLaunching(aNotification: NSNotification) {
+        let stateString: String = "Connected"
+        dispatch_async(dispatch_get_main_queue()) {
+            self.menuView.menu?.itemAtIndex(0)?.title = stateString
+        }
         NSUserNotificationCenter.defaultUserNotificationCenter().delegate = self
     }
 
