@@ -18,6 +18,7 @@
 		169CBE621AE3812C00D237C7 /* FileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169CBE611AE3812C00D237C7 /* FileModel.swift */; };
 		16EA35C01ADDDDC40085392C /* UserNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16EA35BF1ADDDDC40085392C /* UserNotification.swift */; };
 		16FAE4981ADDA2490040A938 /* Pods_FileUpload.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16FAE4971ADDA2490040A938 /* Pods_FileUpload.framework */; };
+		7779B1A01AE5CB3D00CFD14C /* FileService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7779B19F1AE5CB3D00CFD14C /* FileService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		16FAE4971ADDA2490040A938 /* Pods_FileUpload.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_FileUpload.framework; path = "Pods/../build/Debug-iphoneos/Pods_FileUpload.framework"; sourceTree = "<group>"; };
 		2B108A8E9EB343C969B9C20A /* Pods-FileUpload.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FileUpload.release.xcconfig"; path = "Pods/Target Support Files/Pods-FileUpload/Pods-FileUpload.release.xcconfig"; sourceTree = "<group>"; };
 		3C380257B95E8EA486B3517E /* Pods-FileUpload.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FileUpload.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FileUpload/Pods-FileUpload.debug.xcconfig"; sourceTree = "<group>"; };
+		7779B19F1AE5CB3D00CFD14C /* FileService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 		163BF2CD1ADDA05E00E601BE /* FileUpload */ = {
 			isa = PBXGroup;
 			children = (
+				7779B19E1AE5CB2700CFD14C /* Service */,
 				163BF2D01ADDA05E00E601BE /* AppDelegate.swift */,
 				163BF2D41ADDA05E00E601BE /* Images.xcassets */,
 				160C93BA1AE32EB500FD3960 /* MenuView.swift */,
@@ -148,6 +151,14 @@
 				0DF849BEB1BB6E85FB751222 /* Pods_FileUpload.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7779B19E1AE5CB2700CFD14C /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				7779B19F1AE5CB3D00CFD14C /* FileService.swift */,
+			);
+			name = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -302,6 +313,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				160C93BB1AE32EB500FD3960 /* MenuView.swift in Sources */,
+				7779B1A01AE5CB3D00CFD14C /* FileService.swift in Sources */,
 				169CBE621AE3812C00D237C7 /* FileModel.swift in Sources */,
 				163BF2D11ADDA05E00E601BE /* AppDelegate.swift in Sources */,
 				160C93BD1AE3366F00FD3960 /* ViewController.swift in Sources */,

@@ -7,266 +7,266 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		141436D248CA5815E575C1D3 /* Pods-FileUpload-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 127E3264D5B83E16A3C7DF26 /* Pods-FileUpload-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1476D0DF017492A8CBDC06E9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFE04C1EB9BE2DEB823F8E80 /* Cocoa.framework */; };
-		33E8423512DC7B22621D6C0D /* HTTPTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3557109882F8057675147F9 /* HTTPTask.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		35068AEA2F9034CC842B3621 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFE04C1EB9BE2DEB823F8E80 /* Cocoa.framework */; };
-		494A871FC3348F3CD90CA468 /* Pods-FileUpload-SwiftHTTP-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 945710280F5A3B0D619BF45E /* Pods-FileUpload-SwiftHTTP-dummy.m */; };
-		68F7DA7D9EDF8585285DE4AF /* Pods-FileUpload-JSONJoy-Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ABB45F9C10806E8435C8DEB /* Pods-FileUpload-JSONJoy-Swift-dummy.m */; };
-		91E88CCAD8C498838D04D09D /* Pods-FileUpload-SwiftHTTP-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CC1AC458FE3D79F26C4E90E2 /* Pods-FileUpload-SwiftHTTP-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AAB75E6CB3A11B2DBAC37EFC /* HTTPResponseSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADC1861B86B8A79E4F6D9EC /* HTTPResponseSerializer.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		B231AA93396FD81A4D36B352 /* JSONJoy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7402F3AC53284534ECFA839E /* JSONJoy.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		D020C41707C5E98A09767B2B /* Pods-FileUpload-JSONJoy-Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BF2D6C5A9133C234BAB0BE0 /* Pods-FileUpload-JSONJoy-Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D89496105B17FB40D1FED7F6 /* HTTPRequestSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AE738EA92522CC0BF3CBDE /* HTTPRequestSerializer.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		DB1A0D6918C72464DAEA2E0E /* HTTPUpload.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB683BC6DC13A8A4E01B6CE /* HTTPUpload.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		DE9EC0FF574C0D1898EFB520 /* Pods-FileUpload-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B582242AD7918231C4E3A6B5 /* Pods-FileUpload-dummy.m */; };
-		EDC2B50503E8F3B64B04B315 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFE04C1EB9BE2DEB823F8E80 /* Cocoa.framework */; };
+		099ED3F45EB86419C5664364 /* Pods-FileUpload-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C6AE56E29A7287F2354FDCED /* Pods-FileUpload-dummy.m */; };
+		10266AA051FA1CAD104F58A6 /* Pods-FileUpload-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 23E0F2E59CFB5822EAE4C9BE /* Pods-FileUpload-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1540343A3708A6037FA0B8CD /* Pods-FileUpload-SwiftHTTP-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 102539B44ECC38CAB0F86F81 /* Pods-FileUpload-SwiftHTTP-dummy.m */; };
+		2E08A01FAACA7EDF51700266 /* HTTPUpload.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFA8849DED0B08BE8B2E37B /* HTTPUpload.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3056BD5D6A8AAD155347C241 /* HTTPResponseSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638F56A01AEF0D326A9513C6 /* HTTPResponseSerializer.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3965BD9D6B5D09BFBAE43FC2 /* HTTPRequestSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2EF1F03781BF2838687F60 /* HTTPRequestSerializer.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7E58487B8FD3C4F98E3C364B /* Pods-FileUpload-JSONJoy-Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CACB811A4D9A5265BE6B89A /* Pods-FileUpload-JSONJoy-Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		855434CBA9788DC48E31B18B /* Pods-FileUpload-SwiftHTTP-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B6A69D30732D4A3BCB18194 /* Pods-FileUpload-SwiftHTTP-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FBD4A83F0E4E406957D7414 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3917A2E206D47990B965D3A /* Cocoa.framework */; };
+		A2BE27D17A7B114B057E32D2 /* JSONJoy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4130428323113087CBF644 /* JSONJoy.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A77D41038A9CAA65E66D030D /* HTTPTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAD2479AD117BE390A4AC31 /* HTTPTask.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C310D014664E0524715C22E7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3917A2E206D47990B965D3A /* Cocoa.framework */; };
+		E2F5C7A12F106AF00A7E63D5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3917A2E206D47990B965D3A /* Cocoa.framework */; };
+		F825B841F99874FF0489EBB1 /* Pods-FileUpload-JSONJoy-Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46CE0F115B5A7B195BD6BB72 /* Pods-FileUpload-JSONJoy-Swift-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		7C3FF21831C9E627BC038D0D /* PBXContainerItemProxy */ = {
+		141F6F0365225D6D361B342E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = DB9618081CF9436DF13DB824 /* Project object */;
+			containerPortal = EC91782A17D7B56EFC572342 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 36A112B82370AABFF57B2872;
+			remoteGlobalIDString = 2F95B81BA67A998CB010C534;
 			remoteInfo = "Pods-FileUpload-SwiftHTTP";
 		};
-		C7C334F25B0AABA2DFEC302B /* PBXContainerItemProxy */ = {
+		275577C27EC323BF50A3B823 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = DB9618081CF9436DF13DB824 /* Project object */;
+			containerPortal = EC91782A17D7B56EFC572342 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = AB6CEF4B11F545B56DE29786;
+			remoteGlobalIDString = 97246E9F147B1E84813A13D1;
 			remoteInfo = "Pods-FileUpload-JSONJoy-Swift";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		05A69D9AC949AF391D833295 /* Pods-FileUpload-SwiftHTTP.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FileUpload-SwiftHTTP.modulemap"; sourceTree = "<group>"; };
-		0ADC1861B86B8A79E4F6D9EC /* HTTPResponseSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HTTPResponseSerializer.swift; sourceTree = "<group>"; };
-		127E3264D5B83E16A3C7DF26 /* Pods-FileUpload-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FileUpload-umbrella.h"; sourceTree = "<group>"; };
-		13C0B47EF7324EBBBA302E76 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		1ABB45F9C10806E8435C8DEB /* Pods-FileUpload-JSONJoy-Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FileUpload-JSONJoy-Swift-dummy.m"; sourceTree = "<group>"; };
-		1BEEFC7FFB5CA05C7F22E0A0 /* Pods-FileUpload-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FileUpload-resources.sh"; sourceTree = "<group>"; };
-		324176270B6331946F99DD28 /* Pods-FileUpload-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FileUpload-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3D33DC564B9AE00364B8C92A /* Pods-FileUpload.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FileUpload.release.xcconfig"; sourceTree = "<group>"; };
-		3E9EDB9801D2E3C9AE80B866 /* Pods-FileUpload-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FileUpload-acknowledgements.plist"; sourceTree = "<group>"; };
-		42AE738EA92522CC0BF3CBDE /* HTTPRequestSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HTTPRequestSerializer.swift; sourceTree = "<group>"; };
-		43BA0DCDFDEA53306075C00E /* Pods-FileUpload-SwiftHTTP-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FileUpload-SwiftHTTP-Private.xcconfig"; sourceTree = "<group>"; };
-		500C9698438C233B6E8937BB /* Pods_FileUpload.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FileUpload.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		69CC470F1BD08EA1E8DBD570 /* Pods-FileUpload-JSONJoy-Swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FileUpload-JSONJoy-Swift.xcconfig"; sourceTree = "<group>"; };
-		7402F3AC53284534ECFA839E /* JSONJoy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JSONJoy.swift; sourceTree = "<group>"; };
-		7B1521D2B1F458D24C3186A4 /* Pods-FileUpload.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FileUpload.debug.xcconfig"; sourceTree = "<group>"; };
-		8BF2D6C5A9133C234BAB0BE0 /* Pods-FileUpload-JSONJoy-Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FileUpload-JSONJoy-Swift-umbrella.h"; sourceTree = "<group>"; };
-		90D895299238662481C9B585 /* SwiftHTTP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftHTTP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		93439ED6ADA431386DE9212F /* Pods-FileUpload-SwiftHTTP-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FileUpload-SwiftHTTP-prefix.pch"; sourceTree = "<group>"; };
-		945710280F5A3B0D619BF45E /* Pods-FileUpload-SwiftHTTP-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FileUpload-SwiftHTTP-dummy.m"; sourceTree = "<group>"; };
-		A2D484AD2AD62F28B75B3AAF /* Pods-FileUpload-JSONJoy-Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FileUpload-JSONJoy-Swift-prefix.pch"; sourceTree = "<group>"; };
-		A57FB93DB0700391CDF749F4 /* Pods-FileUpload-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FileUpload-environment.h"; sourceTree = "<group>"; };
-		A828D76733D5FEAC3C167711 /* JSONJoy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JSONJoy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B582242AD7918231C4E3A6B5 /* Pods-FileUpload-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FileUpload-dummy.m"; sourceTree = "<group>"; };
-		B725F0D821A1DC6A8FF65FE5 /* Pods-FileUpload-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FileUpload-frameworks.sh"; sourceTree = "<group>"; };
-		BE444FB924B46A364C527A2A /* Pods-FileUpload-JSONJoy-Swift-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FileUpload-JSONJoy-Swift-Private.xcconfig"; sourceTree = "<group>"; };
-		BFE04C1EB9BE2DEB823F8E80 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
-		C6098E038962F417E229027A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C69E08E722A648B07A3A30F4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CC1AC458FE3D79F26C4E90E2 /* Pods-FileUpload-SwiftHTTP-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FileUpload-SwiftHTTP-umbrella.h"; sourceTree = "<group>"; };
-		CC9063725D1C455135BE820C /* Pods-FileUpload.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FileUpload.modulemap"; sourceTree = "<group>"; };
-		D05596EBEB7A26034C04BE73 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DD3DE1EADCE2F602F7D05408 /* Pods-FileUpload-SwiftHTTP.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FileUpload-SwiftHTTP.xcconfig"; sourceTree = "<group>"; };
-		E3557109882F8057675147F9 /* HTTPTask.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HTTPTask.swift; sourceTree = "<group>"; };
-		E5815B006A102802D0496B3C /* Pods-FileUpload-JSONJoy-Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FileUpload-JSONJoy-Swift.modulemap"; sourceTree = "<group>"; };
-		FAB683BC6DC13A8A4E01B6CE /* HTTPUpload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HTTPUpload.swift; sourceTree = "<group>"; };
+		013E4EA17157E52E74FA8DD1 /* Pods-FileUpload-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FileUpload-acknowledgements.markdown"; sourceTree = "<group>"; };
+		102539B44ECC38CAB0F86F81 /* Pods-FileUpload-SwiftHTTP-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FileUpload-SwiftHTTP-dummy.m"; sourceTree = "<group>"; };
+		10CCF4A1EAC2966B59ED4BE4 /* Pods-FileUpload-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FileUpload-environment.h"; sourceTree = "<group>"; };
+		1F2EF1F03781BF2838687F60 /* HTTPRequestSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HTTPRequestSerializer.swift; sourceTree = "<group>"; };
+		22B35B041A20A8820F38C16D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23E0F2E59CFB5822EAE4C9BE /* Pods-FileUpload-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FileUpload-umbrella.h"; sourceTree = "<group>"; };
+		2B2B272EC322006C9098D64B /* Pods-FileUpload-SwiftHTTP.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FileUpload-SwiftHTTP.xcconfig"; sourceTree = "<group>"; };
+		33A31617D7E236C7A720956F /* Pods-FileUpload-SwiftHTTP.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FileUpload-SwiftHTTP.modulemap"; sourceTree = "<group>"; };
+		35152AC7A46E80712F231D78 /* Pods_FileUpload.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FileUpload.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CACB811A4D9A5265BE6B89A /* Pods-FileUpload-JSONJoy-Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FileUpload-JSONJoy-Swift-umbrella.h"; sourceTree = "<group>"; };
+		46504276ED1C9D2F8A873705 /* Pods-FileUpload-JSONJoy-Swift-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FileUpload-JSONJoy-Swift-Private.xcconfig"; sourceTree = "<group>"; };
+		4673469D9C80111B639D4C5E /* Pods-FileUpload.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FileUpload.debug.xcconfig"; sourceTree = "<group>"; };
+		46CE0F115B5A7B195BD6BB72 /* Pods-FileUpload-JSONJoy-Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FileUpload-JSONJoy-Swift-dummy.m"; sourceTree = "<group>"; };
+		5C4130428323113087CBF644 /* JSONJoy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JSONJoy.swift; sourceTree = "<group>"; };
+		638F56A01AEF0D326A9513C6 /* HTTPResponseSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HTTPResponseSerializer.swift; sourceTree = "<group>"; };
+		653057AC8BEC0A6D3382271C /* Pods-FileUpload-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FileUpload-resources.sh"; sourceTree = "<group>"; };
+		713CEE14610CD074520FF118 /* Pods-FileUpload-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FileUpload-acknowledgements.plist"; sourceTree = "<group>"; };
+		782E34E78C281235CB423EB1 /* SwiftHTTP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftHTTP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B6A69D30732D4A3BCB18194 /* Pods-FileUpload-SwiftHTTP-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FileUpload-SwiftHTTP-umbrella.h"; sourceTree = "<group>"; };
+		828A441A5A676939354A03EA /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A91213963B38E53AF8096B37 /* Pods-FileUpload-SwiftHTTP-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FileUpload-SwiftHTTP-prefix.pch"; sourceTree = "<group>"; };
+		AFAD2479AD117BE390A4AC31 /* HTTPTask.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HTTPTask.swift; sourceTree = "<group>"; };
+		B1D0CAE56D603D1D25DC1A6B /* JSONJoy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JSONJoy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3917A2E206D47990B965D3A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		C51CA8D3E729CDE9E74FE4BA /* Pods-FileUpload.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FileUpload.modulemap"; sourceTree = "<group>"; };
+		C6AE56E29A7287F2354FDCED /* Pods-FileUpload-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FileUpload-dummy.m"; sourceTree = "<group>"; };
+		D162CF1027AFBD1CCD6BB288 /* Pods-FileUpload-JSONJoy-Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FileUpload-JSONJoy-Swift.modulemap"; sourceTree = "<group>"; };
+		D485DFDF53A71ACB63D11C4A /* Pods-FileUpload-SwiftHTTP-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FileUpload-SwiftHTTP-Private.xcconfig"; sourceTree = "<group>"; };
+		D62E8C0E70A0F4713D04844F /* Pods-FileUpload-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FileUpload-frameworks.sh"; sourceTree = "<group>"; };
+		E1C52EBBFBB012D16CFA535F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6A5EA51BE2F26381FB20245 /* Pods-FileUpload-JSONJoy-Swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FileUpload-JSONJoy-Swift.xcconfig"; sourceTree = "<group>"; };
+		E98CF2DCDCFC64BD78AFE3F8 /* Pods-FileUpload-JSONJoy-Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FileUpload-JSONJoy-Swift-prefix.pch"; sourceTree = "<group>"; };
+		EB797A55CB7ECA138A761D70 /* Pods-FileUpload.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FileUpload.release.xcconfig"; sourceTree = "<group>"; };
+		ECFA8849DED0B08BE8B2E37B /* HTTPUpload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HTTPUpload.swift; sourceTree = "<group>"; };
+		F57F8EBBEC14BF9A9ABC95E2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		37F1BD4D0BDA59EA77604E74 /* Frameworks */ = {
+		0F58F23CE11F4CBF8EE895B0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35068AEA2F9034CC842B3621 /* Cocoa.framework in Frameworks */,
+				C310D014664E0524715C22E7 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3C75253299CBE19EA16501E4 /* Frameworks */ = {
+		9F710C7BD539526F175D7E78 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1476D0DF017492A8CBDC06E9 /* Cocoa.framework in Frameworks */,
+				9FBD4A83F0E4E406957D7414 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5E487D63772319425AF2FBBA /* Frameworks */ = {
+		E2F45D58B07CA633F97B6DF7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDC2B50503E8F3B64B04B315 /* Cocoa.framework in Frameworks */,
+				E2F5C7A12F106AF00A7E63D5 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0CC8F6AE23A951381859CC6F /* Products */ = {
+		0E663D5648550134B2579798 = {
 			isa = PBXGroup;
 			children = (
-				A828D76733D5FEAC3C167711 /* JSONJoy.framework */,
-				500C9698438C233B6E8937BB /* Pods_FileUpload.framework */,
-				90D895299238662481C9B585 /* SwiftHTTP.framework */,
+				828A441A5A676939354A03EA /* Podfile */,
+				D83CD9D30112BB815DB7A678 /* Frameworks */,
+				97546FAE420AD03045E17A07 /* Pods */,
+				C0F5FBAC27D108C4DC0D219D /* Products */,
+				884F6E6D730F93E9A6004535 /* Targets Support Files */,
 			);
-			name = Products;
 			sourceTree = "<group>";
 		};
-		4D407548962CCFD4B4677AEF /* Support Files */ = {
+		271C96F2D2F038BE636B90FD /* OS X */ = {
 			isa = PBXGroup;
 			children = (
-				C6098E038962F417E229027A /* Info.plist */,
-				E5815B006A102802D0496B3C /* Pods-FileUpload-JSONJoy-Swift.modulemap */,
-				69CC470F1BD08EA1E8DBD570 /* Pods-FileUpload-JSONJoy-Swift.xcconfig */,
-				BE444FB924B46A364C527A2A /* Pods-FileUpload-JSONJoy-Swift-Private.xcconfig */,
-				1ABB45F9C10806E8435C8DEB /* Pods-FileUpload-JSONJoy-Swift-dummy.m */,
-				A2D484AD2AD62F28B75B3AAF /* Pods-FileUpload-JSONJoy-Swift-prefix.pch */,
-				8BF2D6C5A9133C234BAB0BE0 /* Pods-FileUpload-JSONJoy-Swift-umbrella.h */,
+				C3917A2E206D47990B965D3A /* Cocoa.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		618A7DF51D5C73B8DDB165DF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1C52EBBFBB012D16CFA535F /* Info.plist */,
+				D162CF1027AFBD1CCD6BB288 /* Pods-FileUpload-JSONJoy-Swift.modulemap */,
+				E6A5EA51BE2F26381FB20245 /* Pods-FileUpload-JSONJoy-Swift.xcconfig */,
+				46504276ED1C9D2F8A873705 /* Pods-FileUpload-JSONJoy-Swift-Private.xcconfig */,
+				46CE0F115B5A7B195BD6BB72 /* Pods-FileUpload-JSONJoy-Swift-dummy.m */,
+				E98CF2DCDCFC64BD78AFE3F8 /* Pods-FileUpload-JSONJoy-Swift-prefix.pch */,
+				3CACB811A4D9A5265BE6B89A /* Pods-FileUpload-JSONJoy-Swift-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Pods-FileUpload-JSONJoy-Swift";
 			sourceTree = "<group>";
 		};
-		4E251D504C5A18BA5E3402F3 /* Pods-FileUpload */ = {
+		69630131CB724FD9D2A315A9 /* SwiftHTTP */ = {
 			isa = PBXGroup;
 			children = (
-				D05596EBEB7A26034C04BE73 /* Info.plist */,
-				CC9063725D1C455135BE820C /* Pods-FileUpload.modulemap */,
-				324176270B6331946F99DD28 /* Pods-FileUpload-acknowledgements.markdown */,
-				3E9EDB9801D2E3C9AE80B866 /* Pods-FileUpload-acknowledgements.plist */,
-				B582242AD7918231C4E3A6B5 /* Pods-FileUpload-dummy.m */,
-				A57FB93DB0700391CDF749F4 /* Pods-FileUpload-environment.h */,
-				B725F0D821A1DC6A8FF65FE5 /* Pods-FileUpload-frameworks.sh */,
-				1BEEFC7FFB5CA05C7F22E0A0 /* Pods-FileUpload-resources.sh */,
-				127E3264D5B83E16A3C7DF26 /* Pods-FileUpload-umbrella.h */,
-				7B1521D2B1F458D24C3186A4 /* Pods-FileUpload.debug.xcconfig */,
-				3D33DC564B9AE00364B8C92A /* Pods-FileUpload.release.xcconfig */,
+				1F2EF1F03781BF2838687F60 /* HTTPRequestSerializer.swift */,
+				638F56A01AEF0D326A9513C6 /* HTTPResponseSerializer.swift */,
+				AFAD2479AD117BE390A4AC31 /* HTTPTask.swift */,
+				ECFA8849DED0B08BE8B2E37B /* HTTPUpload.swift */,
+				E6F68A612592629C688698BF /* Support Files */,
+			);
+			path = SwiftHTTP;
+			sourceTree = "<group>";
+		};
+		82CDE45EC91947A0D7C22EA2 /* Pods-FileUpload */ = {
+			isa = PBXGroup;
+			children = (
+				F57F8EBBEC14BF9A9ABC95E2 /* Info.plist */,
+				C51CA8D3E729CDE9E74FE4BA /* Pods-FileUpload.modulemap */,
+				013E4EA17157E52E74FA8DD1 /* Pods-FileUpload-acknowledgements.markdown */,
+				713CEE14610CD074520FF118 /* Pods-FileUpload-acknowledgements.plist */,
+				C6AE56E29A7287F2354FDCED /* Pods-FileUpload-dummy.m */,
+				10CCF4A1EAC2966B59ED4BE4 /* Pods-FileUpload-environment.h */,
+				D62E8C0E70A0F4713D04844F /* Pods-FileUpload-frameworks.sh */,
+				653057AC8BEC0A6D3382271C /* Pods-FileUpload-resources.sh */,
+				23E0F2E59CFB5822EAE4C9BE /* Pods-FileUpload-umbrella.h */,
+				4673469D9C80111B639D4C5E /* Pods-FileUpload.debug.xcconfig */,
+				EB797A55CB7ECA138A761D70 /* Pods-FileUpload.release.xcconfig */,
 			);
 			name = "Pods-FileUpload";
 			path = "Target Support Files/Pods-FileUpload";
 			sourceTree = "<group>";
 		};
-		615BFB503BEFDA3CF36E3DDA /* SwiftHTTP */ = {
+		884F6E6D730F93E9A6004535 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				42AE738EA92522CC0BF3CBDE /* HTTPRequestSerializer.swift */,
-				0ADC1861B86B8A79E4F6D9EC /* HTTPResponseSerializer.swift */,
-				E3557109882F8057675147F9 /* HTTPTask.swift */,
-				FAB683BC6DC13A8A4E01B6CE /* HTTPUpload.swift */,
-				E358F9D437EE9E44A2697302 /* Support Files */,
-			);
-			path = SwiftHTTP;
-			sourceTree = "<group>";
-		};
-		75E2092468A56E9FE405FB28 = {
-			isa = PBXGroup;
-			children = (
-				13C0B47EF7324EBBBA302E76 /* Podfile */,
-				800240D2B4FAE3E2F5636C61 /* Frameworks */,
-				FD36FFE1A036389C61302562 /* Pods */,
-				0CC8F6AE23A951381859CC6F /* Products */,
-				9157FB2FD54A552C073DC5F3 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		800240D2B4FAE3E2F5636C61 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				CA92F453F83C8207D7896E14 /* OS X */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		9157FB2FD54A552C073DC5F3 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				4E251D504C5A18BA5E3402F3 /* Pods-FileUpload */,
+				82CDE45EC91947A0D7C22EA2 /* Pods-FileUpload */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		CA92F453F83C8207D7896E14 /* OS X */ = {
+		97546FAE420AD03045E17A07 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BFE04C1EB9BE2DEB823F8E80 /* Cocoa.framework */,
+				AB478FC2099F557CB4D08501 /* JSONJoy-Swift */,
+				69630131CB724FD9D2A315A9 /* SwiftHTTP */,
 			);
-			name = "OS X";
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		D49CCCC9A62C60689D065589 /* JSONJoy-Swift */ = {
+		AB478FC2099F557CB4D08501 /* JSONJoy-Swift */ = {
 			isa = PBXGroup;
 			children = (
-				7402F3AC53284534ECFA839E /* JSONJoy.swift */,
-				4D407548962CCFD4B4677AEF /* Support Files */,
+				5C4130428323113087CBF644 /* JSONJoy.swift */,
+				618A7DF51D5C73B8DDB165DF /* Support Files */,
 			);
 			path = "JSONJoy-Swift";
 			sourceTree = "<group>";
 		};
-		E358F9D437EE9E44A2697302 /* Support Files */ = {
+		C0F5FBAC27D108C4DC0D219D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C69E08E722A648B07A3A30F4 /* Info.plist */,
-				05A69D9AC949AF391D833295 /* Pods-FileUpload-SwiftHTTP.modulemap */,
-				DD3DE1EADCE2F602F7D05408 /* Pods-FileUpload-SwiftHTTP.xcconfig */,
-				43BA0DCDFDEA53306075C00E /* Pods-FileUpload-SwiftHTTP-Private.xcconfig */,
-				945710280F5A3B0D619BF45E /* Pods-FileUpload-SwiftHTTP-dummy.m */,
-				93439ED6ADA431386DE9212F /* Pods-FileUpload-SwiftHTTP-prefix.pch */,
-				CC1AC458FE3D79F26C4E90E2 /* Pods-FileUpload-SwiftHTTP-umbrella.h */,
+				B1D0CAE56D603D1D25DC1A6B /* JSONJoy.framework */,
+				35152AC7A46E80712F231D78 /* Pods_FileUpload.framework */,
+				782E34E78C281235CB423EB1 /* SwiftHTTP.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D83CD9D30112BB815DB7A678 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				271C96F2D2F038BE636B90FD /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E6F68A612592629C688698BF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				22B35B041A20A8820F38C16D /* Info.plist */,
+				33A31617D7E236C7A720956F /* Pods-FileUpload-SwiftHTTP.modulemap */,
+				2B2B272EC322006C9098D64B /* Pods-FileUpload-SwiftHTTP.xcconfig */,
+				D485DFDF53A71ACB63D11C4A /* Pods-FileUpload-SwiftHTTP-Private.xcconfig */,
+				102539B44ECC38CAB0F86F81 /* Pods-FileUpload-SwiftHTTP-dummy.m */,
+				A91213963B38E53AF8096B37 /* Pods-FileUpload-SwiftHTTP-prefix.pch */,
+				7B6A69D30732D4A3BCB18194 /* Pods-FileUpload-SwiftHTTP-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Pods-FileUpload-SwiftHTTP";
 			sourceTree = "<group>";
 		};
-		FD36FFE1A036389C61302562 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				D49CCCC9A62C60689D065589 /* JSONJoy-Swift */,
-				615BFB503BEFDA3CF36E3DDA /* SwiftHTTP */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		12830FDBB12CA31F9CD3CC85 /* Headers */ = {
+		36FD586DED339CE0BC2863A4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D020C41707C5E98A09767B2B /* Pods-FileUpload-JSONJoy-Swift-umbrella.h in Headers */,
+				10266AA051FA1CAD104F58A6 /* Pods-FileUpload-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		213A696D6111930CF326ECB6 /* Headers */ = {
+		4DBE4E1A46955D957A70C829 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91E88CCAD8C498838D04D09D /* Pods-FileUpload-SwiftHTTP-umbrella.h in Headers */,
+				7E58487B8FD3C4F98E3C364B /* Pods-FileUpload-JSONJoy-Swift-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E34D7F566F2B712458F92467 /* Headers */ = {
+		EDC6C0112BC621F53EAA3E09 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				141436D248CA5815E575C1D3 /* Pods-FileUpload-umbrella.h in Headers */,
+				855434CBA9788DC48E31B18B /* Pods-FileUpload-SwiftHTTP-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		36A112B82370AABFF57B2872 /* Pods-FileUpload-SwiftHTTP */ = {
+		2F95B81BA67A998CB010C534 /* Pods-FileUpload-SwiftHTTP */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C6CE3E3DEEAE0E83B6147713 /* Build configuration list for PBXNativeTarget "Pods-FileUpload-SwiftHTTP" */;
+			buildConfigurationList = A9D31525BEBA7088AAC87D4E /* Build configuration list for PBXNativeTarget "Pods-FileUpload-SwiftHTTP" */;
 			buildPhases = (
-				7F41B0418ABE2FE87C6C61B0 /* Sources */,
-				3C75253299CBE19EA16501E4 /* Frameworks */,
-				213A696D6111930CF326ECB6 /* Headers */,
+				806C2138DB4AF403100105BB /* Sources */,
+				0F58F23CE11F4CBF8EE895B0 /* Frameworks */,
+				EDC6C0112BC621F53EAA3E09 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -274,35 +274,16 @@
 			);
 			name = "Pods-FileUpload-SwiftHTTP";
 			productName = "Pods-FileUpload-SwiftHTTP";
-			productReference = 90D895299238662481C9B585 /* SwiftHTTP.framework */;
+			productReference = 782E34E78C281235CB423EB1 /* SwiftHTTP.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		4B1C884E2CAC9CAAD4F39C3F /* Pods-FileUpload */ = {
+		97246E9F147B1E84813A13D1 /* Pods-FileUpload-JSONJoy-Swift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 51E0956D0AFC4331617CFFDB /* Build configuration list for PBXNativeTarget "Pods-FileUpload" */;
+			buildConfigurationList = 7D11AFF098D9980AB18257BD /* Build configuration list for PBXNativeTarget "Pods-FileUpload-JSONJoy-Swift" */;
 			buildPhases = (
-				BF4EE277482EBF7DF1C8275F /* Sources */,
-				37F1BD4D0BDA59EA77604E74 /* Frameworks */,
-				E34D7F566F2B712458F92467 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				50B8280173FF581A3FDF2494 /* PBXTargetDependency */,
-				B8D93FA22D903796BC675458 /* PBXTargetDependency */,
-			);
-			name = "Pods-FileUpload";
-			productName = "Pods-FileUpload";
-			productReference = 500C9698438C233B6E8937BB /* Pods_FileUpload.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		AB6CEF4B11F545B56DE29786 /* Pods-FileUpload-JSONJoy-Swift */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D5C9AA3326C3F5C403362902 /* Build configuration list for PBXNativeTarget "Pods-FileUpload-JSONJoy-Swift" */;
-			buildPhases = (
-				98218C5475A90B578BAA0F4D /* Sources */,
-				5E487D63772319425AF2FBBA /* Frameworks */,
-				12830FDBB12CA31F9CD3CC85 /* Headers */,
+				0AA1877A0D95D0AB3B96E1D2 /* Sources */,
+				E2F45D58B07CA633F97B6DF7 /* Frameworks */,
+				4DBE4E1A46955D957A70C829 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -310,177 +291,109 @@
 			);
 			name = "Pods-FileUpload-JSONJoy-Swift";
 			productName = "Pods-FileUpload-JSONJoy-Swift";
-			productReference = A828D76733D5FEAC3C167711 /* JSONJoy.framework */;
+			productReference = B1D0CAE56D603D1D25DC1A6B /* JSONJoy.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EBBE63175845469440060575 /* Pods-FileUpload */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B34321196237278CC8C84E85 /* Build configuration list for PBXNativeTarget "Pods-FileUpload" */;
+			buildPhases = (
+				391D7B3985A4A9ADB5078A00 /* Sources */,
+				9F710C7BD539526F175D7E78 /* Frameworks */,
+				36FD586DED339CE0BC2863A4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5960F8881F78DF3F56365DC /* PBXTargetDependency */,
+				C9EC3A0F799A40117F335B46 /* PBXTargetDependency */,
+			);
+			name = "Pods-FileUpload";
+			productName = "Pods-FileUpload";
+			productReference = 35152AC7A46E80712F231D78 /* Pods_FileUpload.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		DB9618081CF9436DF13DB824 /* Project object */ = {
+		EC91782A17D7B56EFC572342 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0510;
 			};
-			buildConfigurationList = 29688D5B744F8CB791FBA4D6 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 23B3A5F6D865F8B98F6FBE57 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 75E2092468A56E9FE405FB28;
-			productRefGroup = 0CC8F6AE23A951381859CC6F /* Products */;
+			mainGroup = 0E663D5648550134B2579798;
+			productRefGroup = C0F5FBAC27D108C4DC0D219D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4B1C884E2CAC9CAAD4F39C3F /* Pods-FileUpload */,
-				AB6CEF4B11F545B56DE29786 /* Pods-FileUpload-JSONJoy-Swift */,
-				36A112B82370AABFF57B2872 /* Pods-FileUpload-SwiftHTTP */,
+				EBBE63175845469440060575 /* Pods-FileUpload */,
+				97246E9F147B1E84813A13D1 /* Pods-FileUpload-JSONJoy-Swift */,
+				2F95B81BA67A998CB010C534 /* Pods-FileUpload-SwiftHTTP */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7F41B0418ABE2FE87C6C61B0 /* Sources */ = {
+		0AA1877A0D95D0AB3B96E1D2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D89496105B17FB40D1FED7F6 /* HTTPRequestSerializer.swift in Sources */,
-				AAB75E6CB3A11B2DBAC37EFC /* HTTPResponseSerializer.swift in Sources */,
-				33E8423512DC7B22621D6C0D /* HTTPTask.swift in Sources */,
-				DB1A0D6918C72464DAEA2E0E /* HTTPUpload.swift in Sources */,
-				494A871FC3348F3CD90CA468 /* Pods-FileUpload-SwiftHTTP-dummy.m in Sources */,
+				A2BE27D17A7B114B057E32D2 /* JSONJoy.swift in Sources */,
+				F825B841F99874FF0489EBB1 /* Pods-FileUpload-JSONJoy-Swift-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		98218C5475A90B578BAA0F4D /* Sources */ = {
+		391D7B3985A4A9ADB5078A00 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B231AA93396FD81A4D36B352 /* JSONJoy.swift in Sources */,
-				68F7DA7D9EDF8585285DE4AF /* Pods-FileUpload-JSONJoy-Swift-dummy.m in Sources */,
+				099ED3F45EB86419C5664364 /* Pods-FileUpload-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BF4EE277482EBF7DF1C8275F /* Sources */ = {
+		806C2138DB4AF403100105BB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE9EC0FF574C0D1898EFB520 /* Pods-FileUpload-dummy.m in Sources */,
+				3965BD9D6B5D09BFBAE43FC2 /* HTTPRequestSerializer.swift in Sources */,
+				3056BD5D6A8AAD155347C241 /* HTTPResponseSerializer.swift in Sources */,
+				A77D41038A9CAA65E66D030D /* HTTPTask.swift in Sources */,
+				2E08A01FAACA7EDF51700266 /* HTTPUpload.swift in Sources */,
+				1540343A3708A6037FA0B8CD /* Pods-FileUpload-SwiftHTTP-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		50B8280173FF581A3FDF2494 /* PBXTargetDependency */ = {
+		B5960F8881F78DF3F56365DC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-FileUpload-JSONJoy-Swift";
-			target = AB6CEF4B11F545B56DE29786 /* Pods-FileUpload-JSONJoy-Swift */;
-			targetProxy = C7C334F25B0AABA2DFEC302B /* PBXContainerItemProxy */;
+			target = 97246E9F147B1E84813A13D1 /* Pods-FileUpload-JSONJoy-Swift */;
+			targetProxy = 275577C27EC323BF50A3B823 /* PBXContainerItemProxy */;
 		};
-		B8D93FA22D903796BC675458 /* PBXTargetDependency */ = {
+		C9EC3A0F799A40117F335B46 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-FileUpload-SwiftHTTP";
-			target = 36A112B82370AABFF57B2872 /* Pods-FileUpload-SwiftHTTP */;
-			targetProxy = 7C3FF21831C9E627BC038D0D /* PBXContainerItemProxy */;
+			target = 2F95B81BA67A998CB010C534 /* Pods-FileUpload-SwiftHTTP */;
+			targetProxy = 141F6F0365225D6D361B342E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0DB6EE96673C9DED85598226 /* Debug */ = {
+		2285F689BE906F611CDDEFB5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BE444FB924B46A364C527A2A /* Pods-FileUpload-JSONJoy-Swift-Private.xcconfig */;
+			baseConfigurationReference = D485DFDF53A71ACB63D11C4A /* Pods-FileUpload-SwiftHTTP-Private.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_VERSION = A;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-FileUpload-JSONJoy-Swift/Pods-FileUpload-JSONJoy-Swift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-FileUpload-JSONJoy-Swift/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				MODULEMAP_FILE = "Target Support Files/Pods-FileUpload-JSONJoy-Swift/Pods-FileUpload-JSONJoy-Swift.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = JSONJoy;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		26985E850CE268D177F38788 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7B1521D2B1F458D24C3186A4 /* Pods-FileUpload.debug.xcconfig */;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "Target Support Files/Pods-FileUpload/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				MODULEMAP_FILE = "Target Support Files/Pods-FileUpload/Pods-FileUpload.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_FileUpload;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		2B42C5C3456F6BB8A36C21F6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BE444FB924B46A364C527A2A /* Pods-FileUpload-JSONJoy-Swift-Private.xcconfig */;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_VERSION = A;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-FileUpload-JSONJoy-Swift/Pods-FileUpload-JSONJoy-Swift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-FileUpload-JSONJoy-Swift/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				MODULEMAP_FILE = "Target Support Files/Pods-FileUpload-JSONJoy-Swift/Pods-FileUpload-JSONJoy-Swift.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = JSONJoy;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		32CCD65B8F9D43349BDDAFBB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 43BA0DCDFDEA53306075C00E /* Pods-FileUpload-SwiftHTTP-Private.xcconfig */;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -493,16 +406,17 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MODULEMAP_FILE = "Target Support Files/Pods-FileUpload-SwiftHTTP/Pods-FileUpload-SwiftHTTP.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = SwiftHTTP;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		4CCC94DCB73FD718EAA9BBFA /* Debug */ = {
+		2289FD9557D1C1BB13CED3ED /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -541,7 +455,7 @@
 			};
 			name = Debug;
 		};
-		8A899E62143D793BD3F1DBCD /* Release */ = {
+		3511602AC3E5F0318337786C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -575,12 +489,13 @@
 			};
 			name = Release;
 		};
-		8D66D5DF94E22A8D13D4AACD /* Debug */ = {
+		7EE969917DAEA7B023DA8326 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 43BA0DCDFDEA53306075C00E /* Pods-FileUpload-SwiftHTTP-Private.xcconfig */;
+			baseConfigurationReference = D485DFDF53A71ACB63D11C4A /* Pods-FileUpload-SwiftHTTP-Private.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -593,8 +508,63 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MODULEMAP_FILE = "Target Support Files/Pods-FileUpload-SwiftHTTP/Pods-FileUpload-SwiftHTTP.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = SwiftHTTP;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8E5412B6EFDE3CF405953D50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46504276ED1C9D2F8A873705 /* Pods-FileUpload-JSONJoy-Swift-Private.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-FileUpload-JSONJoy-Swift/Pods-FileUpload-JSONJoy-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-FileUpload-JSONJoy-Swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/Pods-FileUpload-JSONJoy-Swift/Pods-FileUpload-JSONJoy-Swift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = JSONJoy;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D7B8DC453186B95587C5F6A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46504276ED1C9D2F8A873705 /* Pods-FileUpload-JSONJoy-Swift-Private.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-FileUpload-JSONJoy-Swift/Pods-FileUpload-JSONJoy-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-FileUpload-JSONJoy-Swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/Pods-FileUpload-JSONJoy-Swift/Pods-FileUpload-JSONJoy-Swift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = JSONJoy;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -603,9 +573,9 @@
 			};
 			name = Debug;
 		};
-		B93176114842D21C6A7D3A7A /* Release */ = {
+		D8E1580F0A84F361F4B747D3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3D33DC564B9AE00364B8C92A /* Pods-FileUpload.release.xcconfig */;
+			baseConfigurationReference = EB797A55CB7ECA138A761D70 /* Pods-FileUpload.release.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -633,46 +603,76 @@
 			};
 			name = Release;
 		};
+		DDC8338452597EB25DAF142E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4673469D9C80111B639D4C5E /* Pods-FileUpload.debug.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-FileUpload/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/Pods-FileUpload/Pods-FileUpload.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_FileUpload;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		29688D5B744F8CB791FBA4D6 /* Build configuration list for PBXProject "Pods" */ = {
+		23B3A5F6D865F8B98F6FBE57 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4CCC94DCB73FD718EAA9BBFA /* Debug */,
-				8A899E62143D793BD3F1DBCD /* Release */,
+				2289FD9557D1C1BB13CED3ED /* Debug */,
+				3511602AC3E5F0318337786C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		51E0956D0AFC4331617CFFDB /* Build configuration list for PBXNativeTarget "Pods-FileUpload" */ = {
+		7D11AFF098D9980AB18257BD /* Build configuration list for PBXNativeTarget "Pods-FileUpload-JSONJoy-Swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				26985E850CE268D177F38788 /* Debug */,
-				B93176114842D21C6A7D3A7A /* Release */,
+				D7B8DC453186B95587C5F6A6 /* Debug */,
+				8E5412B6EFDE3CF405953D50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C6CE3E3DEEAE0E83B6147713 /* Build configuration list for PBXNativeTarget "Pods-FileUpload-SwiftHTTP" */ = {
+		A9D31525BEBA7088AAC87D4E /* Build configuration list for PBXNativeTarget "Pods-FileUpload-SwiftHTTP" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8D66D5DF94E22A8D13D4AACD /* Debug */,
-				32CCD65B8F9D43349BDDAFBB /* Release */,
+				2285F689BE906F611CDDEFB5 /* Debug */,
+				7EE969917DAEA7B023DA8326 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D5C9AA3326C3F5C403362902 /* Build configuration list for PBXNativeTarget "Pods-FileUpload-JSONJoy-Swift" */ = {
+		B34321196237278CC8C84E85 /* Build configuration list for PBXNativeTarget "Pods-FileUpload" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0DB6EE96673C9DED85598226 /* Debug */,
-				2B42C5C3456F6BB8A36C21F6 /* Release */,
+				DDC8338452597EB25DAF142E /* Debug */,
+				D8E1580F0A84F361F4B747D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = DB9618081CF9436DF13DB824 /* Project object */;
+	rootObject = EC91782A17D7B56EFC572342 /* Project object */;
 }

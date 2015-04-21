@@ -9,22 +9,16 @@
 import Cocoa
 
 struct FileModel {
-    var id: Int?
-    var original_filename: String?
-    var aws_url: String?
-//    var uuid: String?
-    var slug: String?
-    var url: String?
+    let id: Int?
+    let originalFilename: String?
+    let awsUrl: String?
+    let slug: String?
+    let url: String?
     
-    init() {
-        
-    }
-    
-    init(id: Int, original_filename: String, aws_url: String, slug: String, url: String) {
+    init(id: Int, originalFilename: String, awsUrl: String, slug: String, url: String) {
         self.id = id
-        self.original_filename = original_filename
-        self.aws_url = aws_url
-//        self.uuid = uuid
+        self.originalFilename = originalFilename
+        self.awsUrl = awsUrl
         self.slug = slug
         self.url = url
     }
